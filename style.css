@@ -1,0 +1,142 @@
+html, body, footer, .container {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    vertical-align: center;
+    
+  }
+
+a {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  float: middle;
+  margin: 1.6%;
+  
+}
+
+.zalupon{
+    text-align: left;
+    margin-top: -37px;
+    background: rgb(5,33,155);
+    background: linear-gradient(301deg, rgba(5,33,155,1) 0%, 
+    rgba(22,61,236,1) 15%, rgba(71,106,253,1) 50%, 
+    rgba(183,230,239,1) 79%, rgba(255,255,255,1) 100%);
+    height: 300px;
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+
+ul {
+     font-family: "Montserrat", sans-serif;
+}
+
+li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #163dec;
+    float: middle;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    height: 300px;
+    
+    
+    margin-bottom: 500px;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    
+    font-size: 55px;
+    
+
+}
+
+.red {
+    color: #EA3680
+}
+
+.mac {
+    width: 100%;
+    float: right;
+    border-left: 120px;
+}
+
+.ob {
+    display: inline-block;
+}
+
+.ob2 {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 100px;
+    font-size: 25px;
+}
+
+.func {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.point {
+    display: inline-block;
+    margin: 30px;
+    height: 100px;
+    width: 25%;
+}
+
+.name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+img.cld {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+div.background {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+.box {
+    width: 45%;
+    height: 300px;
+    display: inline-block;
+}
+
+
+.tx1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+    float: none;
+    margin-top: 0px;
+    margin-left: 10%;
+
+}

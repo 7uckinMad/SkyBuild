@@ -1,0 +1,116 @@
+html, body, footer, .container {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+  vertical-align: center;
+  
+}
+
+header {
+  background-color: #163dec;
+  float: middle;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+a {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  float: middle;
+  margin: 1.6%;
+  padding-bottom: 100px;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container {  display: grid;
+  margin-top: 50px;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 50px 0px;
+  width: 100%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "case1 case2 case3"
+    "case4 case5 case6";
+  
+  justify-content: center;
+  vertical-align: center;
+  text-align: center;
+  
+
+
+}
+
+
+
+
+
+ .case1 {
+    grid-area: case1;
+    height: 450px;
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 110px;
+    background-color: whitesmoke;
+}
+
+.case2 {
+    grid-area: case2;
+    height: 450px;
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 50px;
+    background-color: whitesmoke;
+}
+
+.case3 {
+    grid-area: case3;
+    height: 450px;
+    border-radius: 20px;
+    width: 400px;
+    margin-right: 110px;
+    background-color: whitesmoke; 
+}
+
+.case4 { grid-area: case4; 
+    height: 450px;
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 110px;
+    background-color: whitesmoke;
+}
+
+.case5 { grid-area: case5;
+  height: 450px;
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 50px;
+    background-color: whitesmoke;
+ }
+
+.case6 { grid-area: case6; 
+    height: 450px;
+    border-radius: 20px;
+    width: 400px;
+    margin-right: 110px;
+    background-color: whitesmoke; 
+}
+
+.logotip{
+  width: 400px;
+  border-radius: 20px;
+  height: 240px;
+}
